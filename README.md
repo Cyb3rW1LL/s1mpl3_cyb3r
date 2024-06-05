@@ -1,2 +1,3 @@
-"To begin, there is a SUPER common password used across the industry, one more so than others.
-I wonder if the VX-Underground would know it...."
+# A collection of simple projects and code to practice
+# Defensive Security skills, critical thinking, host
+# Red Team "Rick Roll" scripts and binaries, etc.
