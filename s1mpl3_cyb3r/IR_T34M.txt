@@ -5,4 +5,4 @@ IR_TEAM.txt
 beore they were successful. Can you take a look at these and try to figure out what they are and how they work?
 They look scrambled and we can't figure it out. Can you cook something up for us like the great CYBERCHEF you are to help us?
 
-K, thx, bb"
+K, thx bb"
