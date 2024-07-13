@@ -1,11 +1,12 @@
 # Author: Cyb3rW1LL
 # Date: 6/28/2024
-
-# Get current execution policy
-$Policy = Get-ExecutionPolicy
-
-# Set execution policy to bypass temorarily
-#Set-ExecutionPolicy Bypass
+#
+#
+## It is probably best to manually set execution policy to Bypass or RemoteSigned
+## via an Admin pwsh terminal before running this script, then change execution
+## back to Restricted or localsystem default.
+#
+# "Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Bypass"
 
 # Launch as Administrator due to permission requirement
 if (-not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator"))
@@ -57,4 +58,4 @@ Write-Host "Copy the teams to a notepad or to the teams chat before pressing 'EN
 Read-Host -Prompt "Press Enter to close"
 
 # Reset execution policy
-Set-ExecutionPolicy $Policy
+# "Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Restricted"
