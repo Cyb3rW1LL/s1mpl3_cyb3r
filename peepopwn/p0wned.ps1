@@ -4,7 +4,7 @@
 # Or Remotesigned in order to drop the .ps1 on the host and run it
 # Alternatively, if a remote shell is established or PSSession,
 # You can copy and paste the script into the terminal but the "Pop-pup"
-# section of the script will immediately exeute.
+# section of the script will immediately execute.
 
 # In any case, depending on security posture/budget/competency/experience/knowledge of the local security team
 # You may not be able to run this anyway...
