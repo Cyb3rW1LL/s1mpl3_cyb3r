@@ -31,8 +31,8 @@ Add-Type -AssemblyName System.Drawing
 # Text-to-Speech setup
 $speak = New-Object System.Speech.Synthesis.SpeechSynthesizer
 
-# First, we create out Form object to size and place out text and
-# Additional objects in
+# First, we create our Form object to size and place our text and
+# Additional objects in the form
 # You can adjust the size as needed
 $form = New-Object System.Windows.Forms.Form
 $form.Text = "Alert"
@@ -46,7 +46,7 @@ $label.Size = New-Object System.Drawing.Size(200, 20)
 $label.Location = New-Object System.Drawing.Point(150, 30)
 $form.Controls.Add($label)
 
-# Add your meme or gif here for trolling and profit
+# Add your meme or gif path here for trolling and profit
 $imagePath = "D:\Apps\Notepad++\peeposmile.png"
 $pictureBox = New-Object System.Windows.Forms.PictureBox
 $pictureBox.Image = [System.Drawing.Image]::FromFile($imagePath)
