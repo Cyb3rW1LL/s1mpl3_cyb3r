@@ -39,7 +39,7 @@ $form.Text = "Alert"
 $form.Size = New-Object System.Drawing.Size(300, 200)
 $form.StartPosition = "CenterScreen"
 
-# Here, we create out labeling for the form
+# Here, we create our labeling for the form
 $label = New-Object System.Windows.Forms.Label
 $label.Text = "pwned"
 $label.Size = New-Object System.Drawing.Size(200, 20)
